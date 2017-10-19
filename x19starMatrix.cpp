@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-vector <vector <int> > stars();
+vector <vector <char> > stars();
 cout << "enter two values"<< endl;
 int val1,val2;
   if(val1>0 && val2>0)
@@ -13,7 +13,8 @@ int val1,val2;
          {
            for(int j =0;j<val2;j++)
            {
-             cout<< "*";
+             stars[i][j] = '*'
+             cout << stars[i][j];
            }
            cout<<" " << endl;
         }
